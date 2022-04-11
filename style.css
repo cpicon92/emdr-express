@@ -1,0 +1,7 @@
+.c-view {
+    display: none;
+}
+
+.c-view--active {
+    display: block;
+}
