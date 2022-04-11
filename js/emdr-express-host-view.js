@@ -11,6 +11,7 @@ export default class EmdrExpressHostView {
         this.connections = [];
         this.peer = new Peer(this.id);
         location.hash = this.id;
+        document.querySelector('.js-session-id').textContent = this.id;
         this._bindEventListeners();
     }
 
